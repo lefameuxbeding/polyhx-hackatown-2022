@@ -40,7 +40,7 @@ jobs:
           poetry-version: ${{ env.POETRY_VERSION }}
 
       - name: Setup Docker buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v1
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
