@@ -6,44 +6,34 @@ nlu:
     - hello
     - hi
     - hello there
+    - hi there
+    - hey there
     - good morning
     - good evening
     - hey there
-    - let's go
     - hey dude
     - goodmorning
     - goodevening
+    - goodafternoon
     - good afternoon
+    - heyo
 - intent: goodbye
   examples: |
     - see you
     - good by
     - see you later
     - good night
+    - have a good night
+    - good night, see you
     - bye
     - goodbye
     - have a nice day
+    - have a good day
+    - have a nice day goodbye
+    - see you have a nice day
     - see you around
     - bye bye
     - ok bye
-- intent: affirm
-  examples: |
-    - yes
-    - yeah
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-    - sure
-- intent: deny
-  examples: |
-    - no
-    - na
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -54,6 +44,7 @@ nlu:
     - what are you?
     - are you a person?
     - what is you
+    - what are you
 - intent: ask_lassonde
   examples: |
     - what is a Lassonde
@@ -62,11 +53,41 @@ nlu:
     - what is in a Lassonde?
     - is Lassonde something?
     - what is Lassonde
+- intent: ask_to_give_comment
+  examples: |
+    - i have something to say
+    - i want to give feedback
+    - i have a comment
+    - i have feedback
+    - i have a review
+    - i want to say something
+    - comment
+    - feedback
+    - review
+    - give comment
+    - give review
+    - give feedback
+    - i need to say something
+    - i have something to say to you
+- intent: comment
+  examples: |
+    - i hate the service
+    - the service was late
+    - i love the service
+    - the service was amazing
+    - i had a bad experience with the service
+    - this service could be better
+    - my family loves this service
+    - police service is pretty bad i hate them
+    - this service was amazing
+    - i had a really good time with the service
+    - the service was pretty bad
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
     - I want food
     - who is the prime minister
+    - zsd
 - intent: nlu_fallback
   examples: |
     - what is
