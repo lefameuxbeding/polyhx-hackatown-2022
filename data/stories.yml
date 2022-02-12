@@ -6,3 +6,20 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+
+- story: Recycling
+  steps:
+  - intent: recycling_content
+  - action: utter_recycling
+  - intent: recycling_plastic
+  - action: utter_recycling_plastic
+  - intent: recycling_metal
+  - action: utter_recycling_metal
+  - intent: recycling_paper
+  - action: utter_recycling_paper
+  - intent: recycling_glass
+  - action: utter_recycling_glass
+  - intent: recycling_fabric
+  - action: utter_recycling_fabric
+  - intent: recycling_wood
+  - action: utter_recycling_wood
