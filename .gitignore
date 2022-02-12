@@ -206,6 +206,7 @@ cython_debug/
 
 # Rasa
 models/
+results/
 
 # Rasa X
 events.db
