@@ -5,87 +5,87 @@ stories:
 - story: happy path 1
   steps:
   - user: |
-      hello there!
+      salut toi!
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
+      incroyable
     intent: mood_great
   - action: utter_happy
 
 - story: happy path 2
   steps:
   - user: |
-      hello there!
+      bonjour!
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
+      super
     intent: mood_great
   - action: utter_happy
   - user: |
-      bye-bye!
+      bye bye!
     intent: goodbye
   - action: utter_goodbye
 
 - story: sad path 1
   steps:
   - user: |
-      hello
+      salut
     intent: greet
   - action: utter_greet
   - user: |
-      not good
+      pas bien
     intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - user: |
-      yes
+      oui
     intent: affirm
   - action: utter_happy
 
 - story: sad path 2
   steps:
   - user: |
-      hello
+      salut
     intent: greet
   - action: utter_greet
   - user: |
-      not good
+      pas bien
     intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - user: |
-      not really
+      pas vraiment
     intent: deny
   - action: utter_goodbye
 
 - story: sad path 3
   steps:
   - user: |
-      hi
+      hey
     intent: greet
   - action: utter_greet
   - user: |
-      very terrible
+      pas très bien
     intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - user: |
-      no
+      non
     intent: deny
   - action: utter_goodbye
 
 - story: say goodbye
   steps:
   - user: |
-      bye-bye!
+      bye bye!
     intent: goodbye
   - action: utter_goodbye
 
 - story: bot challenge
   steps:
   - user: |
-      are you a bot?
+      es-tu un robot?
     intent: bot_challenge
   - action: utter_iamabot
