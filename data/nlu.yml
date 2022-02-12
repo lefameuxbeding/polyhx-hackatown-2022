@@ -4,72 +4,89 @@ nlu:
 - intent: greet
   examples: |
     - hey
-    - salut
-    - bonjour
-    - bon matin
-    - bonne matinée
-    - bonne soirée
-    - hey toi
-    - allo
-    - heille
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
 
 - intent: goodbye
   examples: |
-    - on se voit plus tard
-    - bonne nuit
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
     - bye
-    - au revoir
-    - bonne journée
-    - à la prochaine
+    - goodbye
+    - have a nice day
+    - see you around
     - bye bye
-    - à plus
+    - see you later
 
 - intent: affirm
   examples: |
-    - oui
-    - si
-    - certainement
-    - bien sûr
-    - ça me semble bien
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
     - correct
 
 - intent: deny
   examples: |
-    - non
-    - jamais
-    - je ne pense pas
-    - non merci
-    - pas vraiment
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
 
 - intent: mood_great
   examples: |
-    - parfait
-    - bien
-    - super
-    - je me sens bien
-    - incroyable
-    - je vais bien
-    - c'est super
-    - parfaitement
-    - très bien
-    - très très bien
-    - vraiment bien
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
 
 - intent: mood_unhappy
   examples: |
-    - je suis triste
-    - je ne vais pas bien
-    - je suis décu
-    - très triste
-    - si triste
-    - triste
-    - pas bien
-    - pas très bien
-    - vraiment triste
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
 
 - intent: bot_challenge
   examples: |
-    - es-tu un robot?
-    - es-tu un humain?
-    - est-ce que je parle à un robot?
-    - est-ce que je parle à un humain?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
