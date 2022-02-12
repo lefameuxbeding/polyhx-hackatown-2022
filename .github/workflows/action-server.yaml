@@ -39,6 +39,9 @@ jobs:
         with:
           poetry-version: ${{ env.POETRY_VERSION }}
 
+      - name: Export Poetry to requirements.txt
+        run: poetry export -f requirements.txt --output actions/actions-requirements.txt
+
       - name: Setup Docker buildx
         uses: docker/setup-buildx-action@v1
 
