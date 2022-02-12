@@ -25,3 +25,23 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+from typing import Any, Text, Dict, List
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+
+
+class ActionAcknowledgeComment(Action):
+
+    def name(self) -> Text:
+        return "action_acknowledge_comment"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        print(tracker.latest_message["text"])
+        dispatcher.utter_message(response="utter_acknowledge_comment")
+
+        return []

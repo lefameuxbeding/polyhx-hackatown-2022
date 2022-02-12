@@ -14,23 +14,23 @@ stories:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - intent: comment
-  - action: utter_acknowledge_comment
+  - action: action_acknowledge_comment
 
 - story: Ask to give comment
   steps:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - intent: comment
-  - action: utter_acknowledge_comment
+  - action: action_acknowledge_comment
 
 - story: Greet and give comment
   steps:
   - intent: greet
   - action: utter_greet
   - intent: comment
-  - action: utter_acknowledge_comment
+  - action: action_acknowledge_comment
 
 - story: Give comment
   steps:
   - intent: comment
-  - action: utter_acknowledge_comment
+  - action: action_acknowledge_comment

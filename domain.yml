@@ -33,3 +33,5 @@ responses:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
   utter_default:
   - text: Sorry I didn't get that. Can you rephrase?
+actions:
+- action_acknowledge_comment

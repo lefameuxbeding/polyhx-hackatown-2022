@@ -10,7 +10,6 @@ nlu:
     - hey there
     - good morning
     - good evening
-    - hey there
     - hey dude
     - goodmorning
     - goodevening
@@ -69,6 +68,8 @@ nlu:
     - give feedback
     - i need to say something
     - i have something to say to you
+    - i need to make a review
+    - i need to make a comment about a service
 - intent: comment
   examples: |
     - i hate the service
@@ -82,6 +83,10 @@ nlu:
     - this service was amazing
     - i had a really good time with the service
     - the service was pretty bad
+    - the police service is awful
+    - i had a bad experience
+    - the service was great
+    - the service was awful
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
