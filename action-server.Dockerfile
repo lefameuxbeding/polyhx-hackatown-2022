@@ -20,7 +20,7 @@ COPY actions-requirements.txt .
 RUN pip install -r actions-requirements.txt
 
 # Copy actions folder to working directory
-COPY ./* actions/
+COPY actions actions/
 
 # By best practices, don't run the code with root user
 USER 1001
