@@ -19,7 +19,6 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
     - cee you later
@@ -53,6 +52,19 @@ nlu:
 - intent: bot_challenge
   examples: |
     - are you a bot?
-    - are you a human?
+    - are you human?
     - am I talking to a bot?
     - am I talking to a human?
+    - who are you?
+    - what are you?
+    - are you a person?
+
+- intent: out_of_scope
+  examples: |
+    - what is 2 + 2
+    - qwerty
+    - I want food
+    - who is the prime minister
+    - asdf
+    - wxwzz
+    

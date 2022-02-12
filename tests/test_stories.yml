@@ -22,3 +22,10 @@ stories:
       are you a bot?
     intent: bot_challenge
   - action: utter_iamabot
+
+- story: Out of scope
+  steps:
+  - user: |
+      zxcv
+    intent: out_of_scope
+  - action: utter_iamabot
