@@ -3,10 +3,10 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- affirm
 - ask_lassonde
+- ask_to_give_comment
 - bot_challenge
-- deny
+- comment
 - goodbye
 - greet
 - nlu_fallback
@@ -27,12 +27,20 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_answer_lassonde:
   - text: A Lassonde is a a drink loved by Poly students. It consists of one shot of Sour Puss, one shot of Southern Comfort, one shot of Crème de menthe and one shot of Blue Curaçao.
+  utter_ask_what_is_comment:
+  - text: Of course! What do you have to say?
+  - text: I am all ears! What is your comment?
+  - text: I am here to listen and take notes.
+  utter_acknowledge_comment:
+  - text: Your review has been duly noted. Thanks for your feedback!
+  - text: Your comment was duly noted. Thanks!
   utter_out_of_scope:
   - text: I don't know what you're talking about.
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
   utter_default:
   - text: Sorry I didn't get that. Can you rephrase?
+
   utter_recycling:
   - text: You can recycle plastic, glass, metal and paper. https://montreal.ca/en/topics/recyclables-cardboard-paper-plastic-glass-and-metal?wufoo=true#public
   utter_recycling_plastic:
@@ -49,4 +57,8 @@ responses:
     - text: No! wood and other construction debris can not be recycled. You can bring everything to the eco-quartier nearest to you location. Here's a map! https://www.google.com/maps/d/u/0/edit?hl=fr&mid=1W-h4_mp1nmcVCf9GyRNBQwRNRZs&ll=45.49151825928232%2C-73.64106016685206&z=12
 
 
+
+
+actions:
+- action_acknowledge_comment
 

@@ -3,6 +3,10 @@ name: Action Server Docker
 on:
   push:
     branches: [ "*" ]
+    paths: 
+      - "actions/*"
+      - "poetry.lock"
+      - "pyproject.toml"
     tags: [ 'v*.*.*' ]
 
 env:
