@@ -9,7 +9,6 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - moin
     - hey there
     - let's go
     - hey dude
@@ -19,9 +18,9 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - cu
+    - see you
     - good by
-    - cee you later
+    - see you later
     - good night
     - bye
     - goodbye
@@ -33,7 +32,7 @@ nlu:
 - intent: affirm
   examples: |
     - yes
-    - y
+    - yeah
     - indeed
     - of course
     - that sounds good
@@ -42,7 +41,7 @@ nlu:
 - intent: deny
   examples: |
     - no
-    - n
+    - na
     - never
     - I don't think so
     - don't like that
@@ -62,9 +61,5 @@ nlu:
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
-    - qwerty
     - I want food
     - who is the prime minister
-    - asdf
-    - wxwzz
-    

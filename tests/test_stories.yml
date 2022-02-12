@@ -26,6 +26,13 @@ stories:
 - story: Out of scope
   steps:
   - user: |
-      zxcv
+      what's 9 + 10
     intent: out_of_scope
   - action: utter_iamabot
+
+- story: Low confidence
+  steps:
+  - user: |
+      zxcv
+    intent: nlu_fallback
+  - action: utter_please_rephrase

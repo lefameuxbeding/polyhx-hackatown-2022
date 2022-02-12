@@ -8,6 +8,7 @@ intents:
 - deny
 - goodbye
 - greet
+- nlu_fallback
 - out_of_scope
 responses:
   utter_greet:
@@ -18,3 +19,7 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_out_of_scope:
   - text: I don't know what you're talking about.
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  utter_default:
+  - text: Sorry I didn't get that. Can you rephrase?
