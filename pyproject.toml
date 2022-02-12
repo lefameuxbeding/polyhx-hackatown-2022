@@ -2,7 +2,7 @@
 name = "polyhx-hackatown-2022"
 version = "0.0.1"
 description = "Projet de l'équipe \"Le Javascript c'est pour les singes\" pour l'édition 2022 du Hackatown de PolyHx"
-authors = ["Your Name <you@example.com>"]
+authors = ["Charles-Étienne Joseph <spam@charlesetiennejoseph.net>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
@@ -11,7 +11,12 @@ requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 rasa = "~2.8"
+rasa-x = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "rasa-pypi"
+url = "https://pypi.rasa.com/simple"

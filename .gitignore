@@ -204,3 +204,13 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Rasa
+models/
+
+# Rasa X
+events.db
+events.db-shm
+events.db-wal
+rasa.db
+rasa.db-shm
+rasa.db-wal
