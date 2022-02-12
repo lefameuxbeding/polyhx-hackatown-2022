@@ -8,18 +8,9 @@ intents:
 - deny
 - goodbye
 - greet
-- mood_great
-- mood_unhappy
 responses:
   utter_greet:
   - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
   utter_goodbye:
   - text: Bye
   utter_iamabot:
