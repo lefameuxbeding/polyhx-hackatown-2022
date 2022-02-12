@@ -2,7 +2,11 @@
 name = "polyhx-hackatown-2022"
 version = "0.0.1"
 description = "Projet de l'équipe \"Le Javascript c'est pour les singes\" pour l'édition 2022 du Hackatown de PolyHx"
-authors = ["Charles-Étienne Joseph <spam@charlesetiennejoseph.net>"]
+authors = [
+    "Inès Jussaume <ines.jussaume@polymtl.ca>",
+    "Philippe Rivest <philippe@rive.st>",
+    "Charles-Étienne Joseph <spam@charlesetiennejoseph.net>"
+]
 
 [tool.poetry.dependencies]
 python = "~3.8"
