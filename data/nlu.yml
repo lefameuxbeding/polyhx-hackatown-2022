@@ -52,6 +52,7 @@ nlu:
     - what is in a Lassonde?
     - is Lassonde something?
     - what is Lassonde
+    - what is a lassonde
 - intent: ask_to_give_comment
   examples: |
     - i have something to say
@@ -87,6 +88,7 @@ nlu:
     - i had a bad experience
     - the service was great
     - the service was awful
+    - the police is very bad
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
