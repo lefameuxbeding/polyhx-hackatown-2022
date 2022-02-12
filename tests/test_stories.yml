@@ -23,6 +23,13 @@ stories:
     intent: bot_challenge
   - action: utter_iamabot
 
+- story: Lassonde
+  steps:
+  - user: |
+      is Lassonde a drink?
+    intent: ask_lassonde
+  - action: utter_answer_lassonde
+
 - story: Out of scope
   steps:
   - user: |

@@ -12,6 +12,11 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: Lassonde
+  steps:
+  - intent: ask_lassonde
+  - action: utter_answer_lassonde
+
 - rule: Out of scope
   steps:
     - intent: out_of_scope

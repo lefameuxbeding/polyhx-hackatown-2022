@@ -54,6 +54,14 @@ nlu:
     - what are you?
     - are you a person?
     - what is you
+- intent: ask_lassonde
+  examples: |
+    - what is a Lassonde
+    - Lassonde
+    - do you know what is a Lassonde?
+    - what is in a Lassonde?
+    - is Lassonde something?
+    - what is Lassonde
 - intent: out_of_scope
   examples: |
     - what is 2 + 2

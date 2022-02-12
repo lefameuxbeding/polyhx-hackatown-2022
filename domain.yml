@@ -4,6 +4,7 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - affirm
+- ask_lassonde
 - bot_challenge
 - deny
 - goodbye
@@ -17,6 +18,8 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_answer_lassonde:
+  - text: A Lassonde is a a drink loved by Poly students. It consists of one shot of Sour Puss, one shot of Southern Comfort, ons shot of Crème de menthe and one shot of Blue Curaçao.
   utter_out_of_scope:
   - text: I don't know what you're talking about.
   utter_please_rephrase:
