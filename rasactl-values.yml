@@ -1,0 +1,45 @@
+#rasax:
+#  service:
+#    type: "LoadBalancer"
+
+rasa:
+  versions:
+    rasaWorker:
+      enabled: true
+    rasaProduction:
+      enabled: true
+
+  disableTelemetry: true
+
+app:
+  name: "ghcr.io/lefameuxbeding/polyhx-hackatown-2022/action-server"
+  tag: "main"
+
+nginx:
+  service:
+    port: 80
+
+ingress:
+  enabled: true
+  annotations:
+    "cert-manager.io/cluster-issuer": "letsencrypt-prod"
+  hosts:
+    - host: montreai.tech
+      paths:
+        - /
+  tls:
+    - secretName: rasa-x-tls
+      hosts:
+        - montreai.tech
+
+images:
+  imagePullSecrets:
+    - name: "gh-registry-secret"
+
+#  postgresql:
+#    install: false
+
+#global:
+#  postgresql:
+#    postgresqlUsername: "rasa"
+#    servicePort: 20184
