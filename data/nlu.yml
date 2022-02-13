@@ -22,6 +22,11 @@ nlu:
 - intent: goodbye
   examples: |
     - see you
+    - thanks!
+    - thank you
+    - thx
+    - thanks have a nice day!
+    - thanks :)
     - good by
     - see you later
     - good night
