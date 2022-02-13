@@ -112,5 +112,10 @@ stories:
   - intent: snow_removal
   - action: utter_snow_removal
 
+- story: ask about ice rinks
+  steps:
+    - intent: ice_rinks
+    - action: utter_ice_rinks
+
 
 

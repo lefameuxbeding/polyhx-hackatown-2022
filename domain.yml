@@ -11,6 +11,7 @@ intents:
 - fine_inquiry
 - goodbye
 - greet
+- ice_rinks
 - nlu_fallback
 - out_of_scope
 - recycling_content
@@ -72,5 +73,7 @@ responses:
   - text: Here's a link to know more about collection days in your area https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/?lang=en
   utter_snow_removal:
   - text: To know more about the snow removal operations and their progress in your borough you can consult this web page. https://services.montreal.ca/en/snowremoval/progress You can also consult this map https://services.montreal.ca/deneigement/carte
+  utter_ice_rinks:
+  - text: This interactive map gives you the state of all the rinks around Montreal. https://en.patinermontreal.ca/f/landscaped/free-skating/team-sports You can also consult the list of ice rinks by borough here https://en.patinermontreal.ca/f/landscaped/free-skating/team-sports
 actions:
 - action_acknowledge_comment

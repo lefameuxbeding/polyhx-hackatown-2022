@@ -264,6 +264,19 @@ nlu:
     - will the snow be picked up soon ?
     - will the snow plow come soon?
     - when will the snow be removed?
+- intent: ice_rinks
+  examples: |
+    - ice rink
+    - is the rink next to my house in good condition?
+    - where can i get information on the state of the ice rinks?
+    - are the ice rinks open?
+    - have the ice rinks been resurfaced?
+    - are the rinks ok to skate?
+    - are ice rinks cleared?
+    - are ice rinks open ?
+    - is the parc Lafontaine rink open?
+    - can I go skate at Parc Jarry?
+    - can I skate at parc laurier?
 - synonym: police
   examples: |
     - police department
