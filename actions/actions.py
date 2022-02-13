@@ -41,7 +41,7 @@ class ActionAcknowledgeComment(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if(tracker.latest_message["entities"][0]["value"] != None):
+        if len(tracker.latest_message["entities"]) > 0:
             print(tracker.latest_message["text"])
             print(tracker.latest_message["entities"][0]["value"])
 
