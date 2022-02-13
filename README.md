@@ -1,4 +1,4 @@
-~~# MontréAI
+# MontréAI
 Projet de l'équipe "Le Javascript c'est pour les singes" pour l'édition 2022 du Hackatown de PolyHx
 
 ## Description
@@ -44,4 +44,4 @@ Essayez de me poser une question! 🙂
 ## Nous contacter
 ![Inès Jussaume](https://www.linkedin.com/in/ines-jussaume/) |
 ![Philippe Rivest](https://www.linkedin.com/in/philippe-rivest/) |
-![Charles-Étienne Joseph](https://www.linkedin.com/in/charles-etienne-joseph/)~~
+![Charles-Étienne Joseph](https://www.linkedin.com/in/charles-etienne-joseph/)
