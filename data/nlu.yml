@@ -16,6 +16,7 @@ nlu:
     - goodafternoon
     - good afternoon
     - heyo
+    - what's up
 - intent: goodbye
   examples: |
     - see you
@@ -52,10 +53,9 @@ nlu:
     - what is in a Lassonde?
     - is Lassonde something?
     - what is Lassonde
-    - what is a lassonde
 - intent: ask_to_give_comment
   examples: |
-    - i have something to say
+    - i have something to say about
     - i want to give feedback
     - i have a comment
     - i have feedback
@@ -71,24 +71,34 @@ nlu:
     - i have something to say to you
     - i need to make a review
     - i need to make a comment about a service
+    - i have a comment to make
 - intent: comment
   examples: |
-    - i hate the service
-    - the service was late
-    - i love the service
-    - the service was amazing
-    - i had a bad experience with the service
-    - this service could be better
-    - my family loves this service
-    - police service is pretty bad i hate them
-    - this service was amazing
-    - i had a really good time with the service
-    - the service was pretty bad
-    - the police service is awful
-    - i had a bad experience
-    - the service was great
-    - the service was awful
-    - the police is very bad
+    - i hate the [police](service)
+    - the [recycling center](service) is bad
+    - i love the [parks](service)
+    - the [library](service) was amazing
+    - i had a bad experience with the [waste center](service)
+    - the [libraries](service) could be better
+    - my family loves this [playground](service)
+    - [police department](service) is pretty bad i hate it
+    - the [police officer](service) was amazing
+    - i had a really good time with the [police officers](service)
+    - the [ecocenter](service) was pretty bad
+    - the [police](service) is awful
+    - i had a bad experience with the [playgrounds](service)
+    - the [libraries](service) are great
+    - the [library](service) was awful
+    - i had a wonderful time with the [police department]{"entity": "service", "value": "police"}
+    - [libraries]{"entity": "service", "value": "library"} should be cheaper
+    - [parks]{"entity": "service", "value": "park"} should be more accessible
+    - i don't know how the [waste centers]{"entity": "service", "value": "ecocenter"} work
+    - the city's [libraries]{"entity": "service", "value": "library"} are really great!
+    - the [waste centers]{"entity": "service", "value": "ecocenter"} are not good
+    - [libraries]{"entity": "service", "value": "library"} could be better
+    - [police officers]{"entity": "service", "value": "police"} are great
+    - the [police department]{"entity": "service", "value": "police"} could be better
+    - the [parks]{"entity": "service", "value": "park"} could use some improvements
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
@@ -104,60 +114,56 @@ nlu:
   examples: |
     - What can I put in the recycling bin?
     - What goes into the recycling?
-    - recycling
+    - i need help with recycling
     - what are the recyclables accepted?
-    - recyclables
+    - i need support with recyclables
     - what can I recycle?
-
+    - what can i recycle?
+    - can you help me to recycle?
+    - i need instructions for recycling
+    - can you help me with recycling?
 - intent: recycling_plastic
   examples: |
     - What can I put plastic in the recycling bin?
-    - can i recycle plastic
+    - can i recycle plastic?
     - recycle plastic
-    - is plastic recyclable
-
+    - is plastic recyclable?
 - intent: recycling_metal
   examples: |
     - can I recycle cans?
     - can I recycle metal?
     - can I put metal in the recycling bin?
-    - aluminum
-    - is aluminum recyclable
     - is metal recyclable
-
+    - recycling metal
 - intent: recycling_paper
   examples: |
     - can i put paper in the recycling
-    - paper
     - is paper accepted
     - is paper recyclable?
     - recycling paper
-
 - intent: recycling_glass
   examples: |
     - can i recycle glass
     - can i recycle glass bottles
     - are wine bottles recyclable ?
     - recycling glass
-    - glass
-    - glass jars
-    - glass bottles
-
+    - are glass jars recyclable
+    - can i put glass bottles in the recycle bin?
 - intent: recycling_fabric
   examples: |
     - can i put old clothes in the recycling?
-    - fabric
-    - clothes
+    - can i recycle fabric?
+    - are clothes recyclable?
     - recycling cotton
     - recycling clothes
-
 - intent: recycling_wood
   examples: |
-    - can I recycle wood
-    - can wood be recycled
-    - wood
-    - consctruction debris
-    - construction materials
+    - can I recycle wood?
+    - can wood be recycled?
+    - is wood recyclable?
+    - are consctruction debris recyclable?
+    - can construction materials go tu the recycle bin?
+    - recycling wood
 
 - intent: fine_inquiry
   examples: |
@@ -168,3 +174,32 @@ nlu:
     - parking fine
     - ticket payment
     - fine payment
+
+- synonym: police
+  examples: |
+    - police department
+    - police officers
+    - police officer
+- synonym: library
+  examples: |
+    - libraries
+- synonym: park
+  examples: |
+    - parks
+    - playground
+    - playgrounds
+- synonym: ecocenter
+  examples: |
+    - waste centers
+    - recycling center
+    - waste center
+    - recycling centers
+    - recycling management
+    - waste management
+- lookup: service
+  examples: |
+    - police
+    - park
+    - library
+    - ecocenter
+
