@@ -214,6 +214,19 @@ nlu:
     - what do I do when I get a parking ticket?
     - they gave me a ticket
     - I was fined for parking, how do I pay?
+- intent: towed_car
+  examples: |
+    - my car was towed, where is it?
+    - where is my car?
+    - I can't find my car
+    - how do I find a towed vehicule?
+    - towed car
+    - towed vehicule
+    - my car was moved
+    - I think they moved my car while clearing the snow
+    - where is my vehicule
+    - my car isn't there, where can I find it?
+    - help! my car was towed
 - synonym: police
   examples: |
     - police department

@@ -95,7 +95,12 @@ stories:
 - story: ask about parking tickets
   steps:
     - intent: fine_inquiry
-    - action: utter_fine_payment
+    - action: utter_fine_inquiry
+
+- story: ask about towed car
+  steps:
+    - intent: towed_car
+    - action: utter_towing_response
 
 
 
