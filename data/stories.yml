@@ -7,11 +7,20 @@ stories:
   - intent: greet
   - action: utter_greet
 
+- story: Great and ask about recycling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recycling_content
+  - action: utter_recycling
 
 - story: Recycling
   steps:
   - intent: recycling_content
   - action: utter_recycling
+
+- story: Ask about recycling plastics
+  steps:
   - intent: recycling_plastic
   - action: utter_recycling_plastic
   - intent: recycling_metal

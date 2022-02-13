@@ -106,7 +106,8 @@ nlu:
     - What goes into the recycling?
     - recycling
     - what are the recyclables accepted?
-    -recyclables
+    - recyclables
+    - what can I recycle?
 
 - intent: recycling_plastic
   examples: |
@@ -151,9 +152,9 @@ nlu:
     - recycling clothes
 
 - intent: recycling_wood
-    examples: |
-      - can I recycle wood
-      - can wood be recycled
-      - wood
-      - consctruction debris
-      - construction materials
+  examples: |
+    - can I recycle wood
+    - can wood be recycled
+    - wood
+    - consctruction debris
+    - construction materials

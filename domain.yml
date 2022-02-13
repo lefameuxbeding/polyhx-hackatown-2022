@@ -12,11 +12,11 @@ intents:
 - nlu_fallback
 - out_of_scope
 - recycling_content
-- recycling_plastic
+- recycling_fabric
+- recycling_glass
 - recycling_metal
 - recycling_paper
-- recycling_glass
-- recycling_fabric
+- recycling_plastic
 - recycling_wood
 responses:
   utter_greet:
@@ -40,7 +40,6 @@ responses:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
   utter_default:
   - text: Sorry I didn't get that. Can you rephrase?
-
   utter_recycling:
   - text: You can recycle plastic, glass, metal and paper. https://montreal.ca/en/topics/recyclables-cardboard-paper-plastic-glass-and-metal?wufoo=true#public
   utter_recycling_plastic:
@@ -50,15 +49,10 @@ responses:
   utter_recycling_paper:
   - text: Yes! paper is recyclable! https://montreal.ca/en/topics/recyclables-cardboard-paper-plastic-glass-and-metal?wufoo=true#public
   utter_recycling_glass:
-    - text: Yes! glass is recyclable! some glass containers and bottles are even refundable!  https://consignaction.ca/en/
+  - text: Yes! glass is recyclable! some glass containers and bottles are even refundable!  https://consignaction.ca/en/
   utter_recycling_fabric:
-    - text: No! you cannot recycle old clothes or fabric. You can donate them in designed centers such as renaissance. https://renaissancequebec.ca/en/map/
+  - text: No! you cannot recycle old clothes or fabric. You can donate them in designed centers such as renaissance. https://renaissancequebec.ca/en/map/
   utter_recycling_wood:
-    - text: No! wood and other construction debris can not be recycled. You can bring everything to the eco-quartier nearest to you location. Here's a map! https://www.google.com/maps/d/u/0/edit?hl=fr&mid=1W-h4_mp1nmcVCf9GyRNBQwRNRZs&ll=45.49151825928232%2C-73.64106016685206&z=12
-
-
-
-
+  - text: No! wood and other construction debris can not be recycled. You can bring everything to the eco-quartier nearest to you location. Here's a map! https://www.google.com/maps/d/u/0/edit?hl=fr&mid=1W-h4_mp1nmcVCf9GyRNBQwRNRZs&ll=45.49151825928232%2C-73.64106016685206&z=12
 actions:
 - action_acknowledge_comment
-
