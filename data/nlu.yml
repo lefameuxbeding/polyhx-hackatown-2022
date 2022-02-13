@@ -17,6 +17,8 @@ nlu:
     - good afternoon
     - heyo
     - what's up
+    - hi!
+    - HI!
 - intent: goodbye
   examples: |
     - see you
@@ -122,6 +124,7 @@ nlu:
     - can you help me to recycle?
     - i need instructions for recycling
     - can you help me with recycling?
+    - recycling
 - intent: recycling_plastic
   examples: |
     - What can I put plastic in the recycling bin?
@@ -164,7 +167,6 @@ nlu:
     - are consctruction debris recyclable?
     - can construction materials go tu the recycle bin?
     - recycling wood
-
 - intent: fine_inquiry
   examples: |
     - I got a ticket
@@ -174,7 +176,6 @@ nlu:
     - parking fine
     - ticket payment
     - fine payment
-
 - synonym: police
   examples: |
     - police department
@@ -202,4 +203,3 @@ nlu:
     - park
     - library
     - ecocenter
-
