@@ -19,7 +19,6 @@ intents:
 - recycling_plastic
 - recycling_wood
 - fine_inquiry
-
 entities:
 - service
 responses:
@@ -58,9 +57,8 @@ responses:
   - text: No! You cannot recycle old clothes or fabric. You can donate them in designed centers such as Renaissance. https://renaissancequebec.ca/en/map/
   utter_recycling_wood:
   - text: No! wood and other construction debris can not be recycled. You can bring everything to the eco-quartier nearest to you location. Here's a map! https://www.google.com/maps/d/u/0/edit?hl=fr&mid=1W-h4_mp1nmcVCf9GyRNBQwRNRZs&ll=45.49151825928232%2C-73.64106016685206&z=12
-  utter_fine_payment:
+  utter_fine_inquiry:
     - text: Oh no! I'm sorry it happened to you. Here's how you can pay. https://servicesenligne2.ville.montreal.qc.ca/sel/constats/accueil.do?request_locale=en
-    - text: SUCKERRRRR! learn how to read the signs. Now give me your money here https://servicesenligne2.ville.montreal.qc.ca/sel/constats/accueil.do?request_locale=en
     - text: Have you tried being good at reading the signs and paying your meter? Pay here https://servicesenligne2.ville.montreal.qc.ca/sel/constats/accueil.do?request_locale=en
     - text: Here's where you can pay https://servicesenligne2.ville.montreal.qc.ca/sel/constats/accueil.do?request_locale=en
 
