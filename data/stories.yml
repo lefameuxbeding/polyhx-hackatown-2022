@@ -85,3 +85,18 @@ stories:
       - service
   - action: action_acknowledge_comment
 
+- story: Great and ask about parking tickets
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: fine_inquiry
+    - action: utter_fine_payment
+
+- story: ask about parking tickets
+  steps:
+    - intent: fine_inquiry
+    - action: utter_fine_inquiry
+
+
+
+

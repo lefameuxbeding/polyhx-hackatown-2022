@@ -197,6 +197,15 @@ nlu:
     - do you know if i can recycle construction debris?
     - do you know if i can recycle wood?
     - can i recycle wood pieces?
+- intent: fine_inquiry
+  examples: |
+    - I got a ticket
+    - How can I pay my ticket
+    - i nedd to pay a parking fine
+    - parking ticket
+    - parking fine
+    - ticket payment
+    - fine payment
 - synonym: police
   examples: |
     - police department
