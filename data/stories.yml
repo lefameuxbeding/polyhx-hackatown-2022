@@ -102,6 +102,10 @@ stories:
     - intent: towed_car
     - action: utter_towing_response
 
+- story: ask garbage collection info
+  steps:
+    - intent: collection_info
+    - action: utter_collection_info
 
 
 

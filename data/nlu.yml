@@ -227,6 +227,29 @@ nlu:
     - where is my vehicule
     - my car isn't there, where can I find it?
     - help! my car was towed
+- intent: collection_info
+  examples: |
+    - when is garbage collected?
+    - when does the garbage truck come?
+    - when is compost picked up?
+    - trash
+    - compost
+    - truck
+    - collection
+    - garbage
+    - garbage collection schedule
+    - schedule
+    - when is recycling day?
+    - when is compost day?
+    - what are the collection days?
+    - can i get garbage collection info ?
+    - when can I take out the recycling?
+    - when can I take out my compost?
+    - when can I put my recycling out ?
+    - when can I put my trash out?
+    - when is garbage day?
+    - when is the next compost day?
+    - when is the next recycling day?
 - synonym: police
   examples: |
     - police department

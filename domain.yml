@@ -6,6 +6,7 @@ intents:
 - ask_lassonde
 - ask_to_give_comment
 - bot_challenge
+- collection_info
 - comment
 - fine_inquiry
 - goodbye
@@ -65,5 +66,8 @@ responses:
   utter_towing_response:
   - text: Oh no! I'm sorry this happened. Here's a link to help you. Good luck! https://servicesenligne2.ville.montreal.qc.ca/sel/inforemorquage/index?lang=en
   - text: Here's a link to help you locate your vehicule https://servicesenligne2.ville.montreal.qc.ca/sel/inforemorquage/index?lang=en
+  utter_collection_info:
+  - text: To know collection days in your area please refer to this link https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/?lang=en
+  - text: Here's a link to know more about collection days in your area https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/?lang=en
 actions:
 - action_acknowledge_comment
