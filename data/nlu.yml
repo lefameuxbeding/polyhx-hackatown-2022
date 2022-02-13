@@ -129,15 +129,12 @@ nlu:
     - can you help me to recycle?
     - i need instructions for recycling
     - can you help me with recycling?
-<<<<<<< HEAD
     - recycling
-=======
     - what goes in the recycle bin?
     - i need to know what i can recycle
     - can you help me recycling?
     - does fabric goes to the recycle bin?
     - i need help to know what to recycle
->>>>>>> 42b96fb472189896b5128d555d5f556ba6e09365
 - intent: recycling_plastic
   examples: |
     - What can I put plastic in the recycling bin?
@@ -212,6 +209,11 @@ nlu:
     - parking fine
     - ticket payment
     - fine payment
+    - how do I pay for tickets?
+    - parking fine, where to pay?
+    - what do I do when I get a parking ticket?
+    - they gave me a ticket
+    - I was fined for parking, how do I pay?
 - synonym: police
   examples: |
     - police department

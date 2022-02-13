@@ -95,7 +95,7 @@ stories:
 - story: ask about parking tickets
   steps:
     - intent: fine_inquiry
-    - action: utter_fine_response
+    - action: utter_fine_payment
 
 
 
