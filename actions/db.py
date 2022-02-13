@@ -1,6 +1,8 @@
 import os
 
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, Enum
+
+from actions.sentiment import Sentiment
 
 host = os.environ.get("DB_HOST", "postgresql-cfc120d9-o4d8d3c08.database.cloud.ovh.net")
 database = os.environ.get("DB_NAME", "rasa")
@@ -16,5 +18,6 @@ service_comments = Table(
     Column('id', Integer, primary_key=True),
     Column('message', String),
     Column('service', String),
+    Column('sentiment', Enum(Sentiment))
 )
 db_conn = db_engine.connect()
