@@ -45,6 +45,8 @@ nlu:
     - are you a person?
     - what is you
     - what are you
+    - am i talking to a robot or a human?
+    - hello, are you a robot?
 - intent: ask_lassonde
   examples: |
     - what is a Lassonde
@@ -72,6 +74,7 @@ nlu:
     - i need to make a review
     - i need to make a comment about a service
     - i have a comment to make
+    - hey i have something to say
 - intent: comment
   examples: |
     - i hate the [police](service)
@@ -99,6 +102,8 @@ nlu:
     - [police officers]{"entity": "service", "value": "police"} are great
     - the [police department]{"entity": "service", "value": "police"} could be better
     - the [parks]{"entity": "service", "value": "park"} could use some improvements
+    - i had a problem with a [police officer]{"entity": "service", "value": "police"}
+    - i think it's a bad idea to fund the [police](service) that much
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
@@ -122,12 +127,18 @@ nlu:
     - can you help me to recycle?
     - i need instructions for recycling
     - can you help me with recycling?
+    - what goes in the recycle bin?
+    - i need to know what i can recycle
+    - can you help me recycling?
+    - does fabric goes to the recycle bin?
+    - i need help to know what to recycle
 - intent: recycling_plastic
   examples: |
     - What can I put plastic in the recycling bin?
     - can i recycle plastic?
     - recycle plastic
     - is plastic recyclable?
+    - can you tell me if plastic is recyclable
 - intent: recycling_metal
   examples: |
     - can I recycle cans?
@@ -135,12 +146,23 @@ nlu:
     - can I put metal in the recycling bin?
     - is metal recyclable
     - recycling metal
+    - do you know if i can recycle metal?
+    - can metal go to the recycle [center](service)?
+    - can you tell me if metal is recyclable
+    - do you know if i can recycle metal cans?
+    - i need to know if i can recycle metal
+    - do you know if i can recycle metal parts
 - intent: recycling_paper
   examples: |
     - can i put paper in the recycling
     - is paper accepted
     - is paper recyclable?
     - recycling paper
+    - do you know if i can recycle paper?
+    - can you tell me if paper is recyclable
+    - do you know if i can recycle paper
+    - can i put paper pieces in the recycling bin?
+    - i need to know if i can recycle paper
 - intent: recycling_glass
   examples: |
     - can i recycle glass
@@ -149,6 +171,10 @@ nlu:
     - recycling glass
     - are glass jars recyclable
     - can i put glass bottles in the recycle bin?
+    - do you know if i can recycle glass?
+    - can you tell me if glass is recyclable
+    - can i recycle glass containers?
+    - do you know if i can recycle glass bottles
 - intent: recycling_fabric
   examples: |
     - can i put old clothes in the recycling?
@@ -156,6 +182,10 @@ nlu:
     - are clothes recyclable?
     - recycling cotton
     - recycling clothes
+    - do you know if i can recycle clothes?
+    - do you know if i can recycle fabric?
+    - can old clothes be recycled?
+    - can i put clothing in the recycle bin?
 - intent: recycling_wood
   examples: |
     - can I recycle wood?
@@ -164,6 +194,9 @@ nlu:
     - are consctruction debris recyclable?
     - can construction materials go tu the recycle bin?
     - recycling wood
+    - do you know if i can recycle construction debris?
+    - do you know if i can recycle wood?
+    - can i recycle wood pieces?
 - synonym: police
   examples: |
     - police department

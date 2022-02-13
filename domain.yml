@@ -47,11 +47,11 @@ responses:
   utter_recycling_plastic:
   - text: Yes! Plastic is recyclable! https://montreal.ca/en/topics/recyclables-cardboard-paper-plastic-glass-and-metal?wufoo=true#public
   utter_recycling_metal:
-  - text: Yes! Metal is recyclable! some metal containers and cans are even refundable!  https://consignaction.ca/en/
+  - text: Yes! Metal is recyclable! Some metal containers and cans are even refundable!  https://consignaction.ca/en/
   utter_recycling_paper:
   - text: Yes! Paper is recyclable! https://montreal.ca/en/topics/recyclables-cardboard-paper-plastic-glass-and-metal?wufoo=true#public
   utter_recycling_glass:
-  - text: Yes! Glass is recyclable! some glass containers and bottles are even refundable!  https://consignaction.ca/en/
+  - text: Yes! Glass is recyclable! Some glass containers and bottles are even refundable!  https://consignaction.ca/en/
   utter_recycling_fabric:
   - text: No! You cannot recycle old clothes or fabric. You can donate them in designed centers such as Renaissance. https://renaissancequebec.ca/en/map/
   utter_recycling_wood:
