@@ -7,15 +7,15 @@ MontréAI est un agent conversationnel pour la Ville de Montréal 🏙️
 MontréAI permet aussi une analyse de sentiment sur les commentaires des citoyens afin d'obtenir des informations sur la perception des services offerts par la ville.
 
 ## Technologies utilisées
-![Rasa](https://rasa.com) |
-![OVHcloud](https://www.ovhcloud.com/fr-ca/) |
-![DOMAIN.COM](https://www.domain.com) |
-![Python](https://www.python.org) |
-![Poetry](https://python-poetry.org) |
-![Github](https://github.com) |
-![Kubernetes](https://kubernetes.io/fr/) |
-![Google Cloud Platform](https://cloud.google.com) |
-![Tableau](https://www.tableau.com)
+[Rasa](https://rasa.com) |
+[OVHcloud](https://www.ovhcloud.com/fr-ca/) |
+[DOMAIN.COM](https://www.domain.com) |
+[Python](https://www.python.org) |
+[Poetry](https://python-poetry.org) |
+[Github](https://github.com) |
+[Kubernetes](https://kubernetes.io/fr/) |
+[Google Cloud Platform](https://cloud.google.com) |
+[Tableau](https://www.tableau.com)
 
 ## Essayer MontréAI
 Vous pouvez m'essayer au lien suivant : http://montreai.tech/guest/conversations/production/a08e81abcc6f4821a0f451fd7038ba6f
@@ -42,6 +42,6 @@ Vous pouvez aussi me faire part de vos commentaires sur les services de la ville
 Essayez de me poser une question! 🙂
 
 ## Nous contacter
-![Inès Jussaume](https://www.linkedin.com/in/ines-jussaume/) |
-![Philippe Rivest](https://www.linkedin.com/in/philippe-rivest/) |
-![Charles-Étienne Joseph](https://www.linkedin.com/in/charles-etienne-joseph/)
+[Inès Jussaume](https://www.linkedin.com/in/ines-jussaume/) |
+[Philippe Rivest](https://www.linkedin.com/in/philippe-rivest/) |
+[Charles-Étienne Joseph](https://www.linkedin.com/in/charles-etienne-joseph/)
