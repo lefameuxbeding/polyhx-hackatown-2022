@@ -20,6 +20,7 @@ intents:
 - recycling_paper
 - recycling_plastic
 - recycling_wood
+- snow_removal
 - towed_car
 entities:
 - service
@@ -69,5 +70,7 @@ responses:
   utter_collection_info:
   - text: To know collection days in your area please refer to this link https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/?lang=en
   - text: Here's a link to know more about collection days in your area https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/?lang=en
+  utter_snow_removal:
+  - text: To know more about the snow removal operations and their progress in your borough you can consult this web page. https://services.montreal.ca/en/snowremoval/progress You can also consult this map https://services.montreal.ca/deneigement/carte
 actions:
 - action_acknowledge_comment

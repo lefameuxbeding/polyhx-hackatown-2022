@@ -250,6 +250,20 @@ nlu:
     - when is garbage day?
     - when is the next compost day?
     - when is the next recycling day?
+- intent: snow_removal
+  examples: |
+    - when will the snow be cleared?
+    - when will the snow plow come?
+    - when is the snow going to be pickep up?
+    - snow removal
+    - snowplow
+    - snow removal operation
+    - snow removal map
+    - when will the snow blower come?
+    - when is the snow going to be picked up on my street?
+    - will the snow be picked up soon ?
+    - will the snow plow come soon?
+    - when will the snow be removed?
 - synonym: police
   examples: |
     - police department

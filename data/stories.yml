@@ -107,5 +107,10 @@ stories:
     - intent: collection_info
     - action: utter_collection_info
 
+- story: ask about the snow removal operations
+  steps:
+  - intent: snow_removal
+  - action: utter_snow_removal
+
 
 
