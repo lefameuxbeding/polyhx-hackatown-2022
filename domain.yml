@@ -11,6 +11,8 @@ intents:
 - greet
 - nlu_fallback
 - out_of_scope
+entities:
+- service
 responses:
   utter_greet:
   - text: Hey!

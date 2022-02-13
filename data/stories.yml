@@ -14,6 +14,8 @@ stories:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - intent: comment
+    entities:
+      - service
   - action: action_acknowledge_comment
 
 - story: Ask to give comment
@@ -21,6 +23,8 @@ stories:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - intent: comment
+    entities:
+      - service
   - action: action_acknowledge_comment
 
 - story: Greet and give comment
@@ -28,9 +32,13 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: comment
+    entities:
+      - service
   - action: action_acknowledge_comment
 
 - story: Give comment
   steps:
   - intent: comment
+    entities:
+      - service
   - action: action_acknowledge_comment

@@ -16,6 +16,7 @@ nlu:
     - goodafternoon
     - good afternoon
     - heyo
+    - what's up
 - intent: goodbye
   examples: |
     - see you
@@ -54,7 +55,7 @@ nlu:
     - what is Lassonde
 - intent: ask_to_give_comment
   examples: |
-    - i have something to say
+    - i have something to say about
     - i want to give feedback
     - i have a comment
     - i have feedback
@@ -70,23 +71,34 @@ nlu:
     - i have something to say to you
     - i need to make a review
     - i need to make a comment about a service
+    - i have a comment to make
 - intent: comment
   examples: |
-    - i hate the service
-    - the service was late
-    - i love the service
-    - the service was amazing
-    - i had a bad experience with the service
-    - this service could be better
-    - my family loves this service
-    - police service is pretty bad i hate them
-    - this service was amazing
-    - i had a really good time with the service
-    - the service was pretty bad
-    - the police service is awful
-    - i had a bad experience
-    - the service was great
-    - the service was awful
+    - i hate the [police](service)
+    - the [recycling center](service) is bad
+    - i love the [parks](service)
+    - the [library](service) was amazing
+    - i had a bad experience with the [waste center](service)
+    - the [libraries](service) could be better
+    - my family loves this [playground](service)
+    - [police department](service) is pretty bad i hate it
+    - the [police officer](service) was amazing
+    - i had a really good time with the [police officers](service)
+    - the [ecocenter](service) was pretty bad
+    - the [police](service) is awful
+    - i had a bad experience with the [playgrounds](service)
+    - the [libraries](service) are great
+    - the [library](service) was awful
+    - i had a wonderful time with the [police department]{"entity": "service", "value": "police"}
+    - [libraries]{"entity": "service", "value": "library"} should be cheaper
+    - [parks]{"entity": "service", "value": "park"} should be more accessible
+    - i don't know how the [waste centers]{"entity": "service", "value": "ecocenter"} work
+    - the city's [libraries]{"entity": "service", "value": "library"} are really great!
+    - the [waste centers]{"entity": "service", "value": "ecocenter"} are not good
+    - [libraries]{"entity": "service", "value": "library"} could be better
+    - [police officers]{"entity": "service", "value": "police"} are great
+    - the [police department]{"entity": "service", "value": "police"} could be better
+    - the [parks]{"entity": "service", "value": "park"} could use some improvements
 - intent: out_of_scope
   examples: |
     - what is 2 + 2
@@ -98,3 +110,30 @@ nlu:
     - what is
     - zxcv
     - wxwzz
+- synonym: police
+  examples: |
+    - police officer
+    - police officers
+    - police department
+- synonym: park
+  examples: |
+    - parks
+    - playground
+    - playgrounds
+- synonym: library
+  examples: |
+    - libraries
+- synonym: ecocenter
+  examples: |
+    - recycling center
+    - waste center
+    - recycling centers
+    - waste centers
+    - recycling management
+    - waste management
+- lookup: service
+  examples: |
+    - police
+    - park
+    - library
+    - ecocenter

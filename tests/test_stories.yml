@@ -20,7 +20,7 @@ stories:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - user: |
-      i had a bad experience
+      i had a bad experience with the [police](service)
   - intent: comment
   - action: utter_acknowledge_comment
 
@@ -31,7 +31,7 @@ stories:
   - intent: ask_to_give_comment
   - action: utter_ask_what_is_comment
   - user: |
-      this was amazing
+      [park](service) is amazing
   - intent: comment
   - action: utter_acknowledge_comment
 
@@ -42,14 +42,14 @@ stories:
   - intent: greet
   - action: utter_greet
   - user: |
-      this experience was great
+      the [library](service) was great
   - intent: comment
   - action: utter_acknowledge_comment
 
 - story: Give comment
   steps:
   - user: |
-      my family liked this
+      my family liked the [park](service)
   - intent: comment
   - action: utter_acknowledge_comment
 
