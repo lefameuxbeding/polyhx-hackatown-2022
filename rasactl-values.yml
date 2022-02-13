@@ -14,6 +14,12 @@ rasa:
 app:
   name: "ghcr.io/lefameuxbeding/polyhx-hackatown-2022/action-server"
   tag: "main"
+  extraEnvs:
+    - name: DB_PASSWD
+      valueFrom:
+        secretKeyRef:
+          name: ovh-db-secret
+          key: password
 
 nginx:
   service:

@@ -8,6 +8,8 @@ authors = ["Charles-Étienne Joseph <spam@charlesetiennejoseph.net>"]
 python = "~3.8"
 rasa-sdk = "~2.8"
 requests = "^2.27.1"
+sqlalchemy = "^1.4.31"
+psycopg2 = "^2.9.3"
 
 [tool.poetry.dev-dependencies]
 rasa = "~2.8"
