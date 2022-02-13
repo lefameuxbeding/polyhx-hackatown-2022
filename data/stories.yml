@@ -7,6 +7,48 @@ stories:
   - intent: greet
   - action: utter_greet
 
+- story: Great and ask about recycling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recycling_content
+  - action: utter_recycling
+
+- story: Recycling
+  steps:
+  - intent: recycling_content
+  - action: utter_recycling
+
+- story: Ask about recycling plastic
+  steps:
+  - intent: recycling_plastic
+  - action: utter_recycling_plastic
+
+- story: Ask about recycling metal
+  steps:
+  - intent: recycling_metal
+  - action: utter_recycling_metal
+
+- story: Ask about recycling paper
+  steps:
+  - intent: recycling_paper
+  - action: utter_recycling_paper
+
+- story: Ask about recycling glass
+  steps:
+  - intent: recycling_glass
+  - action: utter_recycling_glass
+
+- story: Ask about recycling fabric
+  steps:
+  - intent: recycling_fabric
+  - action: utter_recycling_fabric
+
+- story: Ask about recycling wood
+  steps:
+  - intent: recycling_wood
+  - action: utter_recycling_wood
+
 - story: Greet and ask to give comment
   steps:
   - intent: greet
@@ -42,3 +84,4 @@ stories:
     entities:
       - service
   - action: action_acknowledge_comment
+

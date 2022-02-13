@@ -110,25 +110,79 @@ nlu:
     - what is
     - zxcv
     - wxwzz
+- intent: recycling_content
+  examples: |
+    - What can I put in the recycling bin?
+    - What goes into the recycling?
+    - i need help with recycling
+    - what are the recyclables accepted?
+    - i need support with recyclables
+    - what can I recycle?
+    - what can i recycle?
+    - can you help me to recycle?
+    - i need instructions for recycling
+    - can you help me with recycling?
+- intent: recycling_plastic
+  examples: |
+    - What can I put plastic in the recycling bin?
+    - can i recycle plastic?
+    - recycle plastic
+    - is plastic recyclable?
+- intent: recycling_metal
+  examples: |
+    - can I recycle cans?
+    - can I recycle metal?
+    - can I put metal in the recycling bin?
+    - is metal recyclable
+    - recycling metal
+- intent: recycling_paper
+  examples: |
+    - can i put paper in the recycling
+    - is paper accepted
+    - is paper recyclable?
+    - recycling paper
+- intent: recycling_glass
+  examples: |
+    - can i recycle glass
+    - can i recycle glass bottles
+    - are wine bottles recyclable ?
+    - recycling glass
+    - are glass jars recyclable
+    - can i put glass bottles in the recycle bin?
+- intent: recycling_fabric
+  examples: |
+    - can i put old clothes in the recycling?
+    - can i recycle fabric?
+    - are clothes recyclable?
+    - recycling cotton
+    - recycling clothes
+- intent: recycling_wood
+  examples: |
+    - can I recycle wood?
+    - can wood be recycled?
+    - is wood recyclable?
+    - are consctruction debris recyclable?
+    - can construction materials go tu the recycle bin?
+    - recycling wood
 - synonym: police
   examples: |
-    - police officer
-    - police officers
     - police department
+    - police officers
+    - police officer
+- synonym: library
+  examples: |
+    - libraries
 - synonym: park
   examples: |
     - parks
     - playground
     - playgrounds
-- synonym: library
-  examples: |
-    - libraries
 - synonym: ecocenter
   examples: |
+    - waste centers
     - recycling center
     - waste center
     - recycling centers
-    - waste centers
     - recycling management
     - waste management
 - lookup: service
