@@ -1,6 +1,14 @@
 # MontréAI
 Projet de l'équipe "Le Javascript c'est pour les singes" pour l'édition 2022 du Hackatown de PolyHx
 
+MontréAI a obtenu les prix suivants :
+- 🥇 première place au classement général
+- 🏆 meilleur projet AI/ML
+- 🏆 meilleure utilisation de Google Cloud Platform
+- 🏆 coup de coeur des juges
+
+[Devpost](https://devpost.com/software/montreai)
+
 ## Description
 MontréAI est un agent conversationnel pour la Ville de Montréal 🏙️
 
@@ -37,7 +45,7 @@ Vous pouvez aussi me faire part de vos commentaires sur les services de la ville
 - 👮 la police
 - 🌳 les parcs
 - ‍📚 les bibliothèques
-- 🗑 les écocentres
+- ♻️ les écocentres
 
 Essayez de me poser une question! 🙂
 
