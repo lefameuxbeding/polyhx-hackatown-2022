@@ -25,10 +25,9 @@ MontréAI permet aussi une analyse de sentiment sur les commentaires des citoyen
 [Google Cloud Platform](https://cloud.google.com) |
 [Tableau](https://www.tableau.com)
 
-## Essayer MontréAI
-Vous pouvez m'essayer au lien suivant : http://montreai.tech/guest/conversations/production/a08e81abcc6f4821a0f451fd7038ba6f
+## Comment fonctionne MontréAI
 
-Merci à DOMAIN.COM pour notre fabuleux domaine : montreai.tech
+Bonjour, je suis MontréAI!
 
 Je ne suis présentement disponible qu'en anglais.
 
@@ -46,8 +45,6 @@ Vous pouvez aussi me faire part de vos commentaires sur les services de la ville
 - 🌳 les parcs
 - ‍📚 les bibliothèques
 - ♻️ les écocentres
-
-Essayez de me poser une question! 🙂
 
 ## Nous contacter
 [Inès Jussaume](https://www.linkedin.com/in/ines-jussaume/) |
